@@ -61,3 +61,9 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+//TO DO:
+// move Section to its own file
+// make sure the WeekdayTitle is moved with it
+// export Section so we can use it in our index.js file
+// pass through text as a prop
