@@ -28,6 +28,12 @@ ReactDOM.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
 
+// TO DO:
+// make a ProgressBar component
+// pass through a progress value
+// make width dependant on progress value
+// make color dependant on progress value
+
 //TO DO:
 // extend the WeekdayTitle component to make a WeekendTitle component
 // use the WeekendTitle if the text prop is an 'S'
