@@ -6,7 +6,13 @@ const ProgressBarContainer = styled.div `
 `
 
 const ProgressBar = styled.div `
-  background: #B4F1B3;
+  background: ${({progress}) =>
+    parseInt(progress) <= 20 ? '#FFB5B6' :
+    parseInt(progress) <= 40 ? '#FED8B3' :
+    parseInt(progress) <= 60 ? '#F9F4C2' :
+    parseInt(progress) <= 80 ? '#B8F9A2' :
+    '#95DFF3'
+  };
   border-radius: 0 7px 7px 0;
   width: ${({progress}) => progress};
 `

@@ -11,7 +11,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Title>Project Tracker</Title>
     <div>
-      <Section progress='35%' text='M' />
+      <Section progress='55%' text='M' />
       <Section progress='15%' text='T' />
       <Section progress='29%' text='W' />
       <Section progress='70%' text='T' />
