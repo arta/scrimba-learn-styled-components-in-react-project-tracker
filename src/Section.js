@@ -2,7 +2,8 @@ import styled from 'styled-components'
 
 const ProgressBar = styled.div `
   background: #B4F1B3;
-  width: 50%;
+  border-radius: 0 7px 7px 0;
+  width: ${({progress}) => progress};
 `
 
 const StyledSection = styled.section `
@@ -31,14 +32,14 @@ const WeekendTitle = styled(WeekdayTitle) `
   border-radius: 7px 0 0 7px;
 `
 
-const Section = ({text}) => {
+const Section = ({progress, text}) => {
   const isWeekend = text === 'S'
 
   return (
     <StyledSection>
       {!isWeekend && <WeekdayTitle>{text}</WeekdayTitle>}
       {isWeekend && <WeekendTitle>{text}</WeekendTitle>}
-      <ProgressBar />
+      <ProgressBar progress={progress} />
     </StyledSection>
   )
 }

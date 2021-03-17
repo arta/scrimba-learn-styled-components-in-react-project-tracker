@@ -11,13 +11,13 @@ ReactDOM.render(
   <React.StrictMode>
     <Title>Project Tracker</Title>
     <div>
-      <Section text='M' />
-      <Section text='T' />
-      <Section text='W' />
-      <Section text='T' />
-      <Section text='F' />
-      <Section text='S' />
-      <Section text='S' />
+      <Section progress='35%' text='M' />
+      <Section progress='15%' text='T' />
+      <Section progress='29%' text='W' />
+      <Section progress='70%' text='T' />
+      <Section progress='90%' text='F' />
+      <Section progress='5%' text='S' />
+      <Section progress='68%' text='S' />
     </div>
   </React.StrictMode>,
   document.getElementById('root')
