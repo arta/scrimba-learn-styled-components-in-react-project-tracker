@@ -2,32 +2,56 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import styled from 'styled-components';
+
+const Section = styled.section `
+  background-color: #ffffff;
+  border: solid 3px grey;
+  margin: 4px;
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: left;
+  font-size: 40px;
+  color: #ff6961;
+`
+
+const Title = styled.h1 ``
+
+const WeekdayTitle = styled.div `
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  border-right: solid 3px lightgrey;
+`
 
 ReactDOM.render(
   <React.StrictMode>
-    <h1>Project Tracker</h1>
+    <Title>Project Tracker</Title>
     <div>
-      <div className="section">
-        <div className="weekday-title">M</div>
-      </div>
-      <div className="section">
-        <div className="weekday-title">T</div>
-      </div>
-      <div className="section">
-        <div className="weekday-title">W</div>
-      </div>
-      <div className="section">
-        <div className="weekday-title">T</div>
-      </div>
-      <div className="section">
-        <div className="weekday-title">F</div>
-      </div>
-      <div className="section">
-        <div className="weekday-title">S</div>
-      </div>
-      <div className="section">
-        <div className="weekday-title">S</div>
-      </div>
+      <Section>
+        <WeekdayTitle>M</WeekdayTitle>
+      </Section>
+      <Section>
+        <WeekdayTitle>T</WeekdayTitle>
+      </Section>
+      <Section>
+        <WeekdayTitle>W</WeekdayTitle>
+      </Section>
+      <Section>
+        <WeekdayTitle>T</WeekdayTitle>
+      </Section>
+      <Section>
+        <WeekdayTitle>F</WeekdayTitle>
+      </Section>
+      <Section>
+        <WeekdayTitle>S</WeekdayTitle>
+      </Section>
+      <Section>
+        <WeekdayTitle>S</WeekdayTitle>
+      </Section>
     </div>
   </React.StrictMode>,
   document.getElementById('root')
