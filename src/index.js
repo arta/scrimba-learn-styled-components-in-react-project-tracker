@@ -29,6 +29,10 @@ ReactDOM.render(
 reportWebVitals();
 
 //TO DO:
+// extend the WeekdayTitle component to make a WeekendTitle component
+// use the WeekendTitle if the text prop is an 'S'
+
+//TO DO:
 // move Section to its own file
 // make sure the WeekdayTitle is moved with it
 // export Section so we can use it in our index.js file
