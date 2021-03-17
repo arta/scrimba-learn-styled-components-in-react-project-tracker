@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/scrimba-learn-styled-components-in-react-project-tracker/static/css/main.0698e43a.chunk.css",
+    "main.js": "/scrimba-learn-styled-components-in-react-project-tracker/static/js/main.6b94594d.chunk.js",
+    "main.js.map": "/scrimba-learn-styled-components-in-react-project-tracker/static/js/main.6b94594d.chunk.js.map",
+    "runtime-main.js": "/scrimba-learn-styled-components-in-react-project-tracker/static/js/runtime-main.7b0a658a.js",
+    "runtime-main.js.map": "/scrimba-learn-styled-components-in-react-project-tracker/static/js/runtime-main.7b0a658a.js.map",
+    "static/js/2.d68be401.chunk.js": "/scrimba-learn-styled-components-in-react-project-tracker/static/js/2.d68be401.chunk.js",
+    "static/js/2.d68be401.chunk.js.map": "/scrimba-learn-styled-components-in-react-project-tracker/static/js/2.d68be401.chunk.js.map",
+    "static/js/3.c0f1a841.chunk.js": "/scrimba-learn-styled-components-in-react-project-tracker/static/js/3.c0f1a841.chunk.js",
+    "static/js/3.c0f1a841.chunk.js.map": "/scrimba-learn-styled-components-in-react-project-tracker/static/js/3.c0f1a841.chunk.js.map",
+    "index.html": "/scrimba-learn-styled-components-in-react-project-tracker/index.html",
+    "static/css/main.0698e43a.chunk.css.map": "/scrimba-learn-styled-components-in-react-project-tracker/static/css/main.0698e43a.chunk.css.map",
+    "static/js/2.d68be401.chunk.js.LICENSE.txt": "/scrimba-learn-styled-components-in-react-project-tracker/static/js/2.d68be401.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7b0a658a.js",
+    "static/js/2.d68be401.chunk.js",
+    "static/css/main.0698e43a.chunk.css",
+    "static/js/main.6b94594d.chunk.js"
+  ]
+}
