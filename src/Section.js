@@ -21,10 +21,10 @@ const WeekdayTitle = styled.div `
   border-right: solid 3px lightgrey;
 `
 
-const Section = () => {
+const Section = ({text}) => {
   return (
     <StyledSection>
-      <WeekdayTitle></WeekdayTitle>
+      <WeekdayTitle>{text}</WeekdayTitle>
     </StyledSection>
   )
 }
