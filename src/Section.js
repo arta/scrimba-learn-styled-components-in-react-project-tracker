@@ -1,5 +1,10 @@
 import styled from 'styled-components'
 
+const ProgressBar = styled.div `
+  background: #B4F1B3;
+  width: 50%;
+`
+
 const StyledSection = styled.section `
   background-color: #ffffff;
   border: solid 3px grey;
@@ -33,6 +38,7 @@ const Section = ({text}) => {
     <StyledSection>
       {!isWeekend && <WeekdayTitle>{text}</WeekdayTitle>}
       {isWeekend && <WeekendTitle>{text}</WeekendTitle>}
+      <ProgressBar />
     </StyledSection>
   )
 }
