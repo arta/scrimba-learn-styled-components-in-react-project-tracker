@@ -3,55 +3,21 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import styled from 'styled-components';
-
-const Section = styled.section `
-  background-color: #ffffff;
-  border: solid 3px grey;
-  margin: 4px;
-  width: 300px;
-  height: 50px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: left;
-  font-size: 40px;
-  color: #ff6961;
-`
+import Section from './Section'
 
 const Title = styled.h1 ``
-
-const WeekdayTitle = styled.div `
-  align-items: flex-end;
-  display: flex;
-  justify-content: center;
-  width: 50px;
-  border-right: solid 3px lightgrey;
-`
 
 ReactDOM.render(
   <React.StrictMode>
     <Title>Project Tracker</Title>
     <div>
-      <Section>
-        <WeekdayTitle>M</WeekdayTitle>
-      </Section>
-      <Section>
-        <WeekdayTitle>T</WeekdayTitle>
-      </Section>
-      <Section>
-        <WeekdayTitle>W</WeekdayTitle>
-      </Section>
-      <Section>
-        <WeekdayTitle>T</WeekdayTitle>
-      </Section>
-      <Section>
-        <WeekdayTitle>F</WeekdayTitle>
-      </Section>
-      <Section>
-        <WeekdayTitle>S</WeekdayTitle>
-      </Section>
-      <Section>
-        <WeekdayTitle>S</WeekdayTitle>
-      </Section>
+      <Section />
+      <Section />
+      <Section />
+      <Section />
+      <Section />
+      <Section />
+      <Section />
     </div>
   </React.StrictMode>,
   document.getElementById('root')
