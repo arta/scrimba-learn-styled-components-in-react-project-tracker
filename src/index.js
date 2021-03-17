@@ -1,12 +1,34 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <h1>Project Tracker</h1>
+    <div>
+      <div className="section">
+        <div className="weekday-title">M</div>
+      </div>
+      <div className="section">
+        <div className="weekday-title">T</div>
+      </div>
+      <div className="section">
+        <div className="weekday-title">W</div>
+      </div>
+      <div className="section">
+        <div className="weekday-title">T</div>
+      </div>
+      <div className="section">
+        <div className="weekday-title">F</div>
+      </div>
+      <div className="section">
+        <div className="weekday-title">S</div>
+      </div>
+      <div className="section">
+        <div className="weekday-title">S</div>
+      </div>
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
