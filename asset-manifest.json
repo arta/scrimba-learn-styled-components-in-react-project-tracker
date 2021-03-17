@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/scrimba-learn-styled-components-in-react-project-tracker/static/css/main.f29294e5.chunk.css",
-    "main.js": "/scrimba-learn-styled-components-in-react-project-tracker/static/js/main.6111b926.chunk.js",
-    "main.js.map": "/scrimba-learn-styled-components-in-react-project-tracker/static/js/main.6111b926.chunk.js.map",
+    "main.js": "/scrimba-learn-styled-components-in-react-project-tracker/static/js/main.595292bb.chunk.js",
+    "main.js.map": "/scrimba-learn-styled-components-in-react-project-tracker/static/js/main.595292bb.chunk.js.map",
     "runtime-main.js": "/scrimba-learn-styled-components-in-react-project-tracker/static/js/runtime-main.ec78814f.js",
     "runtime-main.js.map": "/scrimba-learn-styled-components-in-react-project-tracker/static/js/runtime-main.ec78814f.js.map",
-    "static/js/2.2d11d3c5.chunk.js": "/scrimba-learn-styled-components-in-react-project-tracker/static/js/2.2d11d3c5.chunk.js",
-    "static/js/2.2d11d3c5.chunk.js.map": "/scrimba-learn-styled-components-in-react-project-tracker/static/js/2.2d11d3c5.chunk.js.map",
+    "static/js/2.666928b1.chunk.js": "/scrimba-learn-styled-components-in-react-project-tracker/static/js/2.666928b1.chunk.js",
+    "static/js/2.666928b1.chunk.js.map": "/scrimba-learn-styled-components-in-react-project-tracker/static/js/2.666928b1.chunk.js.map",
     "static/js/3.8eef822d.chunk.js": "/scrimba-learn-styled-components-in-react-project-tracker/static/js/3.8eef822d.chunk.js",
     "static/js/3.8eef822d.chunk.js.map": "/scrimba-learn-styled-components-in-react-project-tracker/static/js/3.8eef822d.chunk.js.map",
     "index.html": "/scrimba-learn-styled-components-in-react-project-tracker/index.html",
     "static/css/main.f29294e5.chunk.css.map": "/scrimba-learn-styled-components-in-react-project-tracker/static/css/main.f29294e5.chunk.css.map",
-    "static/js/2.2d11d3c5.chunk.js.LICENSE.txt": "/scrimba-learn-styled-components-in-react-project-tracker/static/js/2.2d11d3c5.chunk.js.LICENSE.txt"
+    "static/js/2.666928b1.chunk.js.LICENSE.txt": "/scrimba-learn-styled-components-in-react-project-tracker/static/js/2.666928b1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ec78814f.js",
-    "static/js/2.2d11d3c5.chunk.js",
+    "static/js/2.666928b1.chunk.js",
     "static/css/main.f29294e5.chunk.css",
-    "static/js/main.6111b926.chunk.js"
+    "static/js/main.595292bb.chunk.js"
   ]
 }
