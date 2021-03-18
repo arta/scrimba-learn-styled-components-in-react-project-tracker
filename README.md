@@ -8,6 +8,22 @@ Scrimba's course [website](https://scrimba.com/learn/styledcomponents)
 
 ---
 
+#### Setup a React App for deployment to GitHub Pages:
+- Install `gh-pages` package as a dev-dependency: \
+`reactapp % npm install gh-pages --save-dev`
+
+- Update `package.json` with App's & `gp-pages`'s required entries, see commit:
+[6146cb0](https://github.com/arta/scrimba-learn-styled-components-in-react-project-tracker/commit/6146cb0043f5e9950d6392e49d2f3606e7a2e709)
+
+- Run deploy script after commits, as desired: \
+`reactapp % npm run deploy`
+
+- The package builds & deploys the App to its own branch `gh-pages`, \
+select `gh-pages` branch (instead of the default `main`) as the source of
+the deployments (in the repo's GitHub Settings)
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
