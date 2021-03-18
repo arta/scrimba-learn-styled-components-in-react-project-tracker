@@ -17,6 +17,12 @@ const ProgressBar = styled.div `
   width: ${({progress}) => progress};
 `
 
+const ProgressBarToday = styled(ProgressBar) `
+  border: 4px solid #ff6961;
+  border-radius: 0 7px 7px 0;
+  box-sizing: border-box;
+`
+
 const StyledSection = styled.section `
   background-color: #ffffff;
   border: solid 3px grey;
@@ -43,15 +49,20 @@ const WeekendTitle = styled(WeekdayTitle) `
   border-radius: 7px 0 0 7px;
 `
 
-const Section = ({progress, text}) => {
-  const isWeekend = text === 'S'
+const Section = ({progress, day}) => {
+  const dayInitial = day[0]
+  const isWeekend = dayInitial === 'S'
+  const daysNums = ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su']
+  const todayNum = new Date().getDay() - 1
+  const isToday = todayNum === daysNums.indexOf(day)
 
   return (
     <StyledSection>
-      {!isWeekend && <WeekdayTitle>{text}</WeekdayTitle>}
-      {isWeekend && <WeekendTitle>{text}</WeekendTitle>}
+      {!isWeekend && <WeekdayTitle>{dayInitial}</WeekdayTitle>}
+      {isWeekend && <WeekendTitle>{dayInitial}</WeekendTitle>}
       <ProgressBarContainer>
-        <ProgressBar progress={progress} />
+        {!isToday && <ProgressBar progress={progress} />}
+        {isToday && <ProgressBarToday progress={progress} />}
       </ProgressBarContainer>
     </StyledSection>
   )
